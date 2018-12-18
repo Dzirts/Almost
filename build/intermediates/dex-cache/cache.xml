@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\03fa5940576157b6172497639cb3513aa2e84576\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c639d5acd8e9e8e14679097970eefc53a8cf36d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta4_c741a10639687b60a0945652ccdd4cff1ab03a2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\03fa5940576157b6172497639cb3513aa2e84576\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c639d5acd8e9e8e14679097970eefc53a8cf36d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\poi-ooxml-schemas-3.14-20160307.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="97fe4bfdef7f103bfd9ec63c98ea90469afeec7b">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-ooxml-schemas-3.14-20160307_a5bbc862697500d813ce659daa90aa133e14b2d3\classes.dex" />
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-ooxml-schemas-3.14-20160307_a5bbc862697500d813ce659daa90aa133e14b2d3\classes2.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\4842be83b86d1f24d8b396a912826dee8da27c62\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_264c06db0c4b7995f9d7094ed1763163737e7f8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\8516ce868384b2fa5b9c99cc100e153a6cdeac3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="072b7e37f6e7f6ca62b6a0a027dd4cf7bb6ba56e">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5253ea82de5123083066779d126ceb5e043680ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\4842be83b86d1f24d8b396a912826dee8da27c62\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_264c06db0c4b7995f9d7094ed1763163737e7f8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="93db19bc3fd32e8bbc23720cf6c2505958acd433">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9970fa10fb5ffdaab4cb5e59e4adfdfbd40709b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta4_c741a10639687b60a0945652ccdd4cff1ab03a2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\poi-3.14-20160307.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="fad7ae6d2e59c59ffdb45f1981500babfa765180">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-3.14-20160307_a2196512c4e01ab1f7694842fbf7e16d3d580bfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\8516ce868384b2fa5b9c99cc100e153a6cdeac3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="072b7e37f6e7f6ca62b6a0a027dd4cf7bb6ba56e">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5253ea82de5123083066779d126ceb5e043680ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\5161cff50023b07e93c754fccab115bba8c6cca7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b18f8e41e535c5acec96a41ed166b16f9c9a9d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_5caa4bebd1589680e697c4f241ce3e11c8a5a767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\commons-codec-1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9cd61d269c88f9fb0eb36cea1efcd596ab74772f">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.7_a7fea86706f544bb8ae692c3ba9b3b479f60cdb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ebcd9d99e50036a87543cbcdbc26c5e216b3b8b5">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9970fa10fb5ffdaab4cb5e59e4adfdfbd40709b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_5caa4bebd1589680e697c4f241ce3e11c8a5a767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\poi-3.14-20160307.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fad7ae6d2e59c59ffdb45f1981500babfa765180">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-3.14-20160307_a2196512c4e01ab1f7694842fbf7e16d3d580bfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\commons-codec-1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9cd61d269c88f9fb0eb36cea1efcd596ab74772f">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.7_a7fea86706f544bb8ae692c3ba9b3b479f60cdb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\7a6e44c37db4f5d9b6414d0d310f4aa34dce60c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_146aa112b950a37b8d5285158168f13871a5c363\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0e731c3169ef1eb91187491300c3687b21067a0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_7a849357e2dffc5565e8f353a3aabaee128ece37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\5161cff50023b07e93c754fccab115bba8c6cca7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b18f8e41e535c5acec96a41ed166b16f9c9a9d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_7a849357e2dffc5565e8f353a3aabaee128ece37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dzirt\.android\build-cache\7a6e44c37db4f5d9b6414d0d310f4aa34dce60c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_146aa112b950a37b8d5285158168f13871a5c363\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\libs\poi-ooxml-schemas-3.14-20160307.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="97fe4bfdef7f103bfd9ec63c98ea90469afeec7b">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-ooxml-schemas-3.14-20160307_a5bbc862697500d813ce659daa90aa133e14b2d3\classes.dex" />
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\2\poi-ooxml-schemas-3.14-20160307_a5bbc862697500d813ce659daa90aa133e14b2d3\classes2.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Programing\Let_It_Work\Fapp-e6da834231847759ffb750955c7a4a45deba43fd\sample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0e731c3169ef1eb91187491300c3687b21067a0e\classes.dex" />
+    </item>
+
+</items>

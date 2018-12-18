@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonstate_transparent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:weightSum="1">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="Project Name"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="Excel File"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="Series Number"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etProjName"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Enter Project Name "
+                        android:inputType="textPersonName"
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/btnAddExcelFile"
+                        android:layout_weight="1"
+
+                        android:src="@drawable/add_file" />
+
+                    <EditText
+                        android:id="@+id/etSerNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Enter Series Number"
+                        android:inputType="number"
+
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light" />
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonstate_transparent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:weightSum="1">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    >
+
+                    <TextView
+                        android:background="#dcdcdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="Range"
+                        android:padding="20dip"
+                        android:layout_marginRight="2dp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:background="#dcdcdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="Fire Type"
+                        android:padding="20dip"
+                        android:layout_marginRight="2dp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:background="#dcdcdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="Camera"
+                        android:padding="20dip"
+                        android:layout_marginRight="2dp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:background="#dcdcdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="Target Position"
+                        android:padding="20dip"
+                        android:textColor="#000000" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <EditText
+                        android:id="@+id/range_et"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="0"
+                        android:inputType="number"
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light" />
+
+                    <Spinner
+                        android:id="@+id/fire_type_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light" />
+
+                    <Spinner
+                        android:id="@+id/camera_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light" />
+
+                    <Spinner
+                        android:id="@+id/target_pos_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:padding="20dip"
+                        android:textColor="@android:color/background_light" />
+
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/self"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonstate_transparent"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/scannedImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.96"
+                android:scaleType="centerInside"
+                android:src="@drawable/strike" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#333333" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnExcel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/excel" />
+
+                <ImageButton
+                    android:id="@+id/btnCamera"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/camera" />
+
+                <ImageButton
+                    android:id="@+id/btnVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/video" />
+
+                <ImageButton
+                    android:id="@+id/btnLibrary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/library" />
+
+                <ImageButton
+                    android:id="@+id/btnNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:elevation="0dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/next_txt" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#333333" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#333333" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
