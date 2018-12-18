@@ -1,9 +1,9 @@
 package org.opencv.core;
 
+import org.opencv.core.KeyPoint;
+
 import java.util.Arrays;
 import java.util.List;
-
-import org.opencv.core.KeyPoint;
 
 public class MatOfKeyPoint extends Mat {
     // 32FC7

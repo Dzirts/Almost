@@ -33,11 +33,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.NumberPicker;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.davemorrissey.labs.subscaleview.sample.ExcelData;
 import com.davemorrissey.labs.subscaleview.sample.ExcelWriter;
@@ -52,7 +50,6 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class DataActivity extends Activity implements OnClickListener {
@@ -105,7 +102,7 @@ public class DataActivity extends Activity implements OnClickListener {
                 if (!newFilePlace.equals("")){
                     File file = new File(newFilePlace);
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setDataAndType(Uri.fromFile(file),"application/vnd.ms-excel");
+                    intent.setDataAndType(Uri.fromFile(file),"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
                     startActivity(intent);
                 }
             }

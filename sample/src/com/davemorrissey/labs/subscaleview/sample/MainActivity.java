@@ -58,7 +58,7 @@ import java.util.ArrayList;
 public class MainActivity extends Activity implements OnClickListener {
 
 
-    private final int NUM_OF_SERIES_IN_XLS_FILE = 20;
+    private final int NUM_OF_SERIES_IN_XLSX_FILE = 20;
     private static final int SCAN_REQUEST_CODE = 99;
     private static final int VIDEO_REQUEST_CODE = 98;
     private final String TEMPLATE_TYPE = ".xlsx";
@@ -250,9 +250,9 @@ public class MainActivity extends Activity implements OnClickListener {
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString(getString(R.string.param_project_name)   , mProjName);
         editor.putString(getString(R.string.param_project_series) , mSeriesNumber);
-        editor.putString(getString(R.string.param_xls_name)       , mFileName);
-        editor.putString(getString(R.string.param_xls_path)       , mFilePath);
-        editor.putString(getString(R.string.param_xls_dir)        , mFileDir);
+        editor.putString(getString(R.string.param_xlsx_name)       , mFileName);
+        editor.putString(getString(R.string.param_xlsx_path)       , mFilePath);
+        editor.putString(getString(R.string.param_xlsx_dir)        , mFileDir);
         String ToastAreOn = mToastsAreOn? "true" : "false";
         editor.putString(getString(R.string.param_toasts_are_on2) , ToastAreOn);
         editor.commit();
@@ -288,9 +288,9 @@ public class MainActivity extends Activity implements OnClickListener {
         String def =   "default";
         String projName     = sharedPref.getString(getString(R.string.param_project_name)   , def);
         String currSeries   = sharedPref.getString(getString(R.string.param_project_series) , def);
-        String xlsName      = sharedPref.getString(getString(R.string.param_xls_name)       , def);
-        String xlsPath      = sharedPref.getString(getString(R.string.param_xls_path)       , def);
-        String xlsDir       = sharedPref.getString(getString(R.string.param_xls_dir)        , def);
+        String xlsxName      = sharedPref.getString(getString(R.string.param_xlsx_name)       , def);
+        String xlsxPath      = sharedPref.getString(getString(R.string.param_xlsx_path)       , def);
+        String xlsxDir       = sharedPref.getString(getString(R.string.param_xlsx_dir)        , def);
         String toastsAreOn = "";
         try{
             toastsAreOn = sharedPref.getString("param_toasts_are_on2"   , "false");
@@ -300,8 +300,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
 
         if (projName.equals(def) ||  currSeries.equals(def) ||
-            xlsName.equals(def)  ||  xlsPath.equals(def)    ||
-            xlsDir.equals(def))
+            xlsxName.equals(def)  ||  xlsxPath.equals(def)    ||
+            xlsxDir.equals(def))
         {
             //new Project
             mProjName = mSeriesNumber = mFilePath = mFileName = mFileDir ="";
@@ -312,7 +312,7 @@ public class MainActivity extends Activity implements OnClickListener {
             setAppSubtitle();
 
             int currSer = Integer.parseInt(currSeries);
-            if (currSer >= NUM_OF_SERIES_IN_XLS_FILE) {
+            if (currSer >= NUM_OF_SERIES_IN_XLSX_FILE) {
                 // file is full, starting a new project
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putString(getString(R.string.param_project_series), def);
@@ -323,12 +323,12 @@ public class MainActivity extends Activity implements OnClickListener {
             etSer.setText(mSeriesNumber);
             setAppSubtitle();
 
-            mFilePath     = xlsPath;
+            mFilePath     = xlsxPath;
             ImageButton imgbtnExcel = (ImageButton) findViewById(id.btnAddExcelFile);
             imgbtnExcel.setImageResource(R.drawable.add_file_done);
 
-            mFileName     = xlsName;
-            mFileDir      = xlsDir;
+            mFileName     = xlsxName;
+            mFileDir      = xlsxDir;
             Log.d(TAG, "prefences are set in app");
 
             mToastsAreOn = (toastsAreOn.equals("true"))? true : false;
@@ -481,7 +481,7 @@ public class MainActivity extends Activity implements OnClickListener {
 ////              TODO: check new com.davemorrissey.labs.subscaleview.sample.ExcelWriter(mFilePath);
                 File file = new File(mFilePath);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setDataAndType(Uri.fromFile(file),"application/vnd.ms-excel");
+                intent.setDataAndType(Uri.fromFile(file),"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
                 startActivity(intent);
             } else {
                 // TODO: change it to default file and delete test

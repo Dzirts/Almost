@@ -39,10 +39,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -50,15 +46,14 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.ViewFlipper;
 
 import com.davemorrissey.labs.subscaleview.ImageSource;
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import com.davemorrissey.labs.subscaleview.sample.Data.DataActivity;
 import com.davemorrissey.labs.subscaleview.sample.ExcelReader;
 import com.davemorrissey.labs.subscaleview.sample.R;
 import com.davemorrissey.labs.subscaleview.sample.R.id;
 import com.davemorrissey.labs.subscaleview.sample.R.layout;
-import com.davemorrissey.labs.subscaleview.sample.Data.DataActivity;
 import com.davemorrissey.labs.subscaleview.sample.extension.views.PinView;
 import com.davemorrissey.labs.subscaleview.sample.myToast;
 
@@ -524,6 +519,7 @@ public class SignHitsActivity extends Activity implements OnClickListener {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+
         er = new ExcelReader(stream);
         indexList = er.getAllFilledInCols();
         rangesList = er.getRanges(indexList);

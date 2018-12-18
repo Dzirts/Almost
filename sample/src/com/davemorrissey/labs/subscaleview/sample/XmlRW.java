@@ -2,18 +2,26 @@ package com.davemorrissey.labs.subscaleview.sample;
 
 import android.util.Log;
 
-import javax.xml.parsers.*;
-import javax.xml.transform.*;
-import javax.xml.transform.dom.*;
-import javax.xml.transform.stream.*;
-import org.xml.sax.*;
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.StringReader;
-import java.util.ArrayList;
 import java.util.HashMap;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 /**
  * Created by Elbit on 8/10/2017.
@@ -25,18 +33,18 @@ public class XmlRW {
 
     private String sProjectName = "";
     private String sSeries = "";
-    private String sXlsPath = "";
-    private String sXlsName = "";
-    private String sXlsDir = "";
+    private String sXlsxPath = "";
+    private String sXlsxName = "";
+    private String sXlsxDir = "";
     private String mXml;
     private HashMap<String, String> DataV;
 
     XmlRW(String xml, HashMap<String, String> args){
         sProjectName = args.get("ProjectName");       //projectName
         sSeries      = args.get("Series");                 //series;
-        sXlsPath     = args.get("XlsPath");               //xlsPath;
-        sXlsName     = args.get("XlsName");
-        sXlsDir      = args.get("XlsDir");
+        sXlsxPath     = args.get("XlsxPath");               //xlsPath;
+        sXlsxName     = args.get("XlsxName");
+        sXlsxDir      = args.get("XlsxDir");
         mXml         = xml;
     }
 
@@ -72,20 +80,20 @@ public class XmlRW {
                 if (!sSeries.isEmpty())
                     DataV.put("Series", sSeries);
             }
-            sXlsPath = getTextValue(sXlsPath, doc, "XlsPath");
-            if (sXlsPath != null) {
-                if (!sXlsPath.isEmpty())
-                    DataV.put("XlsPath",sXlsPath);
+            sXlsxPath = getTextValue(sXlsxPath, doc, "XlsxPath");
+            if (sXlsxPath != null) {
+                if (!sXlsxPath.isEmpty())
+                    DataV.put("XlsxPath",sXlsxPath);
             }
-            sXlsName = getTextValue(sXlsName, doc, "XlsName");
-            if (sXlsName != null) {
-                if (!sXlsName.isEmpty())
-                    DataV.put("XlsName",sXlsName);
+            sXlsxName = getTextValue(sXlsxName, doc, "XlsxName");
+            if (sXlsxName != null) {
+                if (!sXlsxName.isEmpty())
+                    DataV.put("XlsxName",sXlsxName);
             }
-            sXlsDir = getTextValue(sXlsDir, doc, "XlsDir");
-            if (sXlsDir != null) {
-                if (!sXlsDir.isEmpty())
-                    DataV.put("XlsDir",sXlsDir);
+            sXlsxDir = getTextValue(sXlsxDir, doc, "XlsxDir");
+            if (sXlsxDir != null) {
+                if (!sXlsxDir.isEmpty())
+                    DataV.put("XlsDir",sXlsxDir);
             }
             return DataV;
 
@@ -125,16 +133,16 @@ public class XmlRW {
                 e.appendChild(dom.createTextNode(sSeries));
                 rootEle.appendChild(e);
 
-                e = dom.createElement("XlsPath");
-                e.appendChild(dom.createTextNode(sXlsPath));
+                e = dom.createElement("XlsxPath");
+                e.appendChild(dom.createTextNode(sXlsxPath));
                 rootEle.appendChild(e);
 
-                e = dom.createElement("XlsName");
-                e.appendChild(dom.createTextNode(sXlsName));
+                e = dom.createElement("XlsxName");
+                e.appendChild(dom.createTextNode(sXlsxName));
                 rootEle.appendChild(e);
 
-                e = dom.createElement("XlsDir");
-                e.appendChild(dom.createTextNode(sXlsDir));
+                e = dom.createElement("XlsxDir");
+                e.appendChild(dom.createTextNode(sXlsxDir));
                 rootEle.appendChild(e);
             } catch (Exception err){
                 Log.e(TAG, err.getStackTrace().toString());

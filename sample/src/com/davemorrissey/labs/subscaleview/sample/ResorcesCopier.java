@@ -28,7 +28,7 @@ public class ResorcesCopier {
         Log.i(TAG, "Setup::copyResources");
 
         InputStream in = mContext.getResources().openRawResource(resId);
-//        String suffix = ".xls";
+     //   suffix = ".xlsx";
         filename += suffix;
         File f = new File(filename);
 

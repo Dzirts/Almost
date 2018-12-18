@@ -7,9 +7,9 @@ import android.util.Log;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -21,8 +21,8 @@ import static org.apache.poi.ss.usermodel.Cell.CELL_TYPE_NUMERIC;
 public class ExcelReader {
 
     InputStream mIS;
-    XSSFWorkbook workbook;
-    XSSFSheet sheet;
+    Workbook workbook;
+    Sheet sheet = null;
 
 
     int START_LINE = 51;
@@ -32,7 +32,8 @@ public class ExcelReader {
     public ExcelReader(InputStream is){
         mIS = is;
         try{
-            workbook = new XSSFWorkbook(mIS);
+
+            workbook = WorkbookFactory.create(mIS);
             sheet = workbook.getSheetAt(0);
 
 
